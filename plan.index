@@ -1,0 +1,13 @@
+using film.index as findex
+play settings inorder,ogquality,noads,notrailers,
+play viewing findex:TEST:
+play viewing findex:TEST:
+play viewing findex:TEST:
+play viewing findex:TEST:
+end
+
+# ---- schedule films to be played ----
+#using film.index as findex					film.index is the film index file used th get film location
+#play settings inorder,ogquality,noads,notrailers,		settings for when the film plays, ignore these
+#play viewing findex:TEST:					play film with ID "TEST" using index "findex" (film.index)
+#end								end of file
