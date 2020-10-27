@@ -10,9 +10,9 @@ nickname = ""
 token = ""
 channel = ""
 streamKey = ""
-broadcaster_id = "191842162"
-Authorization = "Bearer s4s63s9snsaqxfou0vxtl0o9x9qnct"
-ClientId = "kimne78kx3ncx6brgo4mv6wki5h1ko"
+broadcaster_id = ""
+Authorization = ""
+ClientId = ""
 
 try:
     oauth = open('twitchservice_OAuth.dat', 'r')
