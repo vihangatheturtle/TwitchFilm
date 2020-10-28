@@ -1,20 +1,13 @@
 using film.index as findex
 play settings inorder,ogquality,noads,notrailers,
-play viewing findex:2067:
-play viewing findex:M2020:
-play viewing findex:2BRT:
-play viewing findex:IT:
-play viewing findex:2IT:
-play viewing findex:TAWP:
+play viewing findex:TEST:
+play viewing findex:TEST:
+play viewing findex:TEST:
+play viewing findex:TEST:
 end
 
-#---- Film Schedule ----
-#using film.index as findex						use the file film.index as the index findex
-#play settings inorder,ogquality,noads,notrailers,			set settings, ignore this
-#play viewing findex:2067:						play film with ID 2067 from index findex (film.index)
-#play viewing findex:M2020:						play film with ID M2020 from index findex (film.index)
-#play viewing findex:2BRT:						play film with ID 2BRT from index findex (film.index)
-#play viewing findex:IT:						play film with ID IT from index findex (film.index)
-#play viewing findex:2IT:						play film with ID 2IT from index findex (film.index)
-#play viewing findex:TAWP:						play film with ID TAWP from index findex (film.index)
-#end									end of script
+# ---- schedule films to be played ----
+#using film.index as findex					film.index is the film index file used th get film location
+#play settings inorder,ogquality,noads,notrailers,		settings for when the film plays, ignore these
+#play viewing findex:TEST:					play film with ID "TEST" using index "findex" (film.index)
+#end								end of file
