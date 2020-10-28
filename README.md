@@ -6,3 +6,5 @@ TwitchFilm is fully open source and based on Python, if you see something that n
 
 ## Prerequisites
 * Python 3.6 or higher
+* moviepy python module
+* FFmpeg
