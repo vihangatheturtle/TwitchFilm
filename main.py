@@ -4,12 +4,17 @@ import socket
 import time
 import os
 
+#Required for controlling stream from chat
 server = 'irc.chat.twitch.tv'
 port = 6667
 nickname = ""
 token = ""
 channel = ""
+
+#Required for streaming
 streamKey = ""
+
+#Required for auto changing stream title
 broadcaster_id = ""
 Authorization = ""
 ClientId = ""
