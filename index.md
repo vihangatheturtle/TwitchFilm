@@ -12,4 +12,4 @@ TwitchFilm is fully open source and based on Python, if you see something that n
 TwitchFilm uses different methods to connect to the Twitch API in order to fully automate the streaming process. It uses FFmpeg to transcode and stream the film to Twitch in real-time.
 
 ## Where can I download it?
-You can download it from the TwithFilm [releases page](https://github.com/vihangatheturtle/TwitchFilm/releases/).
+You can find the downloads on the [releases page](https://github.com/vihangatheturtle/TwitchFilm/releases/).
